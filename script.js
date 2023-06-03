@@ -13,7 +13,7 @@ function submitComment() {
         return;
     }
 
-    // 만약 commen가 공백이거나 비어있다면 알림창을 띄움
+    // 만약 comment가 공백이거나 비어있다면 알림창을 띄움
     if (comment.trim() === "") {
         alert("변경을 요구하는 사항을 입력해주세요.")
         return;
